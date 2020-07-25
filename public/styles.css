@@ -1,5 +1,5 @@
 :root {
-    --bg-color: #fff;
+    --bg-color: #F9F8F8;
     --primary-color: #EF476F;
     --secondary-color: #B084CC;
     --font-color: #424242;
@@ -7,9 +7,9 @@
 
 [data-theme="dark"] {
     --bg-color: #272838;
-    --primary-color: #FFD166;
-    --secondary-color: #EF476F;
-    --font-color: #fff;
+    --primary-color: #EF476F;
+    --secondary-color: #A2C185;
+    --font-color: #F9F8F8;
 }
 
 body {
@@ -100,6 +100,21 @@ h1 {
   }
 
   .contact-me > li {
-      padding-right: 2em;
+      padding-right: 1em;
       font-size: 2em;;
+  }
+
+  /* Skills List */
+
+  .skills-list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .skills-list > li {
+      background-color: var(--primary-color);
+      border-radius: 1em;
+      margin-right: 1em;
+      padding:0.5em;
   }
