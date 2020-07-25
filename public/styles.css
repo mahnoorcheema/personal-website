@@ -17,6 +17,7 @@ body {
     margin: 2em;
     background-color: var(--bg-color);
     color: var(--font-color);
+    font-size: 1.25em;
 }
 
 a {
@@ -27,6 +28,10 @@ a {
 
 h1, h2 {
     color: var(--secondary-color);
+}
+
+h1 {
+    padding-top: 2em;
 }
 /* Toggle Switch Classes */
 
@@ -83,4 +88,18 @@ h1, h2 {
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  /* Contact me list */
+
+  .contact-me {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+  }
+
+  .contact-me > li {
+      padding-right: 2em;
+      font-size: 2em;;
   }
