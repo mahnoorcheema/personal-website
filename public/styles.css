@@ -1,6 +1,9 @@
 :root {
     --bg-color: #F9F8F8;
     --primary-color: #F3A5C0;
+    /* --primary-color: #EE5187; */
+    /* --primary-color: #EE81A7; */
+    /* --primary-color: #F3A5C0; */
     /* --primary-color: #EEB044; */
     --secondary-color: #A870CC;
     --font-color: #424242;
@@ -127,7 +130,7 @@ h1 {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-evenly;
       padding: 0;
   }
 
@@ -143,3 +146,5 @@ h1 {
 
   .grow { transition: all .2s ease-in-out; }
   .grow:hover { transform: scale(1.2); }
+
+  .skills-transition { transition: all .2s ease-in-out; }
