@@ -92,8 +92,21 @@ h1 {
     border-radius: 50%;
   }
 
+  /* Contact + Resume Section */
+
+  .contact-and-resume {
+      display: flex;
+      flex-direction: column;
+  }
+
   /* Contact me list */
 
+  .icon-size{
+    font-size: 2em;
+    justify-content: center;
+    padding-right: 1em;
+    padding-left: 0.75em;
+  }
   .contact-me {
       list-style-type: none;
       display: flex;
@@ -103,7 +116,7 @@ h1 {
 
   .contact-me > li {
       padding-right: 1em;
-      font-size: 2em;;
+      font-size: 2em;
   }
 
   /* Skills List */
